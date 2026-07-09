@@ -1,0 +1,14 @@
+package date;
+
+import java.text.SimpleDateFormat;
+
+public class Date2nd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Date today = new Date();
+		SimpleDateFormat = 
+	}
+
+}

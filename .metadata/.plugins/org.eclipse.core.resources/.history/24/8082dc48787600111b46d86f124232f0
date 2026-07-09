@@ -1,0 +1,18 @@
+package in.co.rays;
+
+public class IfeLSE {
+	
+	
+public static void main(String[] args) {
+	
+	int money = 990;
+	
+	if(money > 100) {
+		System.out.println("You can buy pizza");
+	}else {
+		System.out.println("You can not buy pizza");
+	}
+	
+}
+
+}

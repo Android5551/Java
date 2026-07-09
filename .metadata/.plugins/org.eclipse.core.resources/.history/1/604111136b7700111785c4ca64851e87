@@ -1,0 +1,29 @@
+package arrays;
+
+public class PrintMaxAndMin {
+public static void main(String[] args) {
+	int [] intarr = {1,10,4,5,78};
+	int max = intarr[0];
+	System.out.println("pre max is "+max);
+	// TODO max and min. element
+	for(int i = 0; i < intarr.length; i++) {
+		System.out.println("value of i is "+i);
+		if(intarr[i] > max) {
+			System.out.println("value of intarr[i] is "+intarr[i]);
+			max = intarr[i];
+			System.out.println("post max is: "+max);
+		}
+		else {
+			System.out.println("in else intarr[i], max are: "+intarr[i]+" "+max);
+		}
+	}
+		System.out.println("final max is: "+max);
+		
+		
+	}
+	
+	}
+
+	
+
+

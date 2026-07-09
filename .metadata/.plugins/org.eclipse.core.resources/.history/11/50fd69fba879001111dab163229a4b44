@@ -1,0 +1,18 @@
+package strngs;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		// Check whether two strings are anagrams.
+		// Example: "silent" and "listen" are anagrams because
+		// sorting both gives "eilnst".
+		String s = "silent";
+		String t = "listen";
+		
+		for(int i = 0; i < s.length(); i++)
+		{
+			System.out.println(i);
+		}
+	}
+
+}

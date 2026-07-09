@@ -1,0 +1,23 @@
+package arrays;
+
+public class PrintMaxAndMin {
+public static void main(String[] args) {
+	int [] intarr = {1,3,4,5};
+	// TODO max and min. element
+	int i = 0;
+	while (i < 4) {
+		int max = intarr[i];
+		System.out.println(intarr[i]);
+		if(max > intarr[i]) {
+			System.out.println("yes "+max);
+		}
+		else {
+			System.out.println("no "+max);
+		}
+		i++;
+		}
+	}
+
+	
+}
+

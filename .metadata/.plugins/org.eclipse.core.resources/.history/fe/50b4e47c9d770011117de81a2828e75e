@@ -1,0 +1,44 @@
+package arrays;
+// TODO arrange in ascending order
+
+public class AscArray {
+	public static void main(String[] args) {
+		int[] arr = { 90, 43, 100 ,1};
+		// Minimum number
+		int min = arr[0];
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] < min) {
+				min = arr[i];
+			}
+		}
+		System.out.println(min);
+//		System.out.println("---------");
+
+		// 2nd minimum no.
+		// 90, 43, 100
+		// 0, 1, 2
+		int secondmin = arr[0];
+		for (int i = 0; i < arr.length; i++) {
+			// check if new number greater than minimum and
+			// new number smaller than current second minimum
+			// if yes replace
+			if (arr[i] > min && arr[i] < secondmin) {
+				secondmin = arr[i];
+
+			}
+		}
+		System.out.println(secondmin);
+//		System.out.println("---------");
+
+		// 3rd no.
+		int max = arr[0];
+		for (int i = 0; i < arr.length; i++) {
+			
+			if (arr[i] > max) {
+				max = arr[i];
+
+			}
+		}
+		System.out.println(max);
+	}
+}

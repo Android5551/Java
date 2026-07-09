@@ -1,0 +1,21 @@
+package strngs;
+
+public class CountDigits {
+
+	public static void main(String[] args) {
+		// TODO count digits in given string
+		String x = "Ram123Hello";
+//		String y = "0123456789";
+		int count = 0;
+		for (int i = 0; i < x.length(); i++) {
+//			for (int j = 0; j < y.length(); j++) {
+//				if (x.charAt(i) == y.charAt(j)) {
+//					System.out.println(x.charAt(i) + ", " + y.charAt(j));
+			if (Character.isDigit(x.charAt(i))) {
+					count = count + 1;
+				}
+			}
+		System.out.println("Total number of digits in " + x + " are : " + count);
+		}
+		
+	}

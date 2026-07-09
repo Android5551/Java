@@ -1,0 +1,32 @@
+package programs;
+
+public class SwitchDays {
+
+	public static void main(String[] args) {
+		// TODO Weekdays
+		String day = "Sunday";
+		switch (day) {
+			case "Monday":
+				System.out.println("Weekday 1");
+			case "Tuesday":
+				System.out.println("Weekday 2");
+			case "Wednesday":
+				System.out.println("Weekday 3");
+			case "Thursday":
+				System.out.println("Weekday 4");
+			case "Friday":
+				System.out.println("Weekday 5");
+			case "Saturday":
+				System.out.println("Weekday 6");
+			case "Sunday":
+				System.out.println("Weekend");
+			default:
+				System.out.println("Please enter a valid Weekday!");
+			
+			
+			
+
+	}
+
+}
+}

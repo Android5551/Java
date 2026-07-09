@@ -1,0 +1,21 @@
+package strngs;
+
+public class SubString {
+
+	public static void main(String[] args) {
+		// TODO if string is abcdef so it will print 6 otherwise if string is ujlujl it will print 3
+		String s = "abcdef"; 
+		int count = 0;
+		for(char i = 0; i<= s.length(); i++ ) {
+			for(int j = 0; j<=s.length()-1; j++) {
+				if(s.charAt(i) == s.charAt(j)) {
+					System.out.println(s.charAt(i)+" "+s.charAt(j));
+					count++;
+				}
+			}
+			
+		}
+		System.out.println(count);
+	}
+
+}

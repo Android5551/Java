@@ -1,0 +1,27 @@
+package arrays;
+
+public class PrintMaxAndMin {
+	public static void main(String[] args) {
+		int[] intarr = { 1, 10, 4, 5, 78 };
+		int max = intarr[0];
+
+		for (int i = 0; i < intarr.length; i++) {
+			if (intarr[i] > max) {
+				max = intarr[i];
+			}
+
+		}
+		System.out.println("final max is: " + max);
+
+		int secondMax = intarr[0];
+
+		for (int i = 0; i < intarr.length; i++) {
+			if (intarr[i] < max && intarr[i] > secondMax) {
+				secondMax = intarr[i];
+			}
+		}
+		System.out.println("second max: " + secondMax);
+
+	}
+
+}

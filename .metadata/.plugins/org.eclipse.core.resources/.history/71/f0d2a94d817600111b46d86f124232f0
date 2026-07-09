@@ -1,0 +1,28 @@
+package programs;
+
+public class SwitchCase {
+	public static void main(String[] args) {
+		// TODO Calculator using Switch
+		int a = 1;
+		int b = 2;
+		String ops = "+";
+		
+		switch (ops) {
+			case "+":
+				int sum = a + b;
+				System.out.println("Adding a and b: "+sum);
+			case "-": 
+				int sub = a - b;
+				System.out.println("Subtracting a and b: "+sub);
+			case "/":
+				int div = a / b;
+				System.out.println("Dividing a and b: "+div);
+			case "%":
+				int mod = a % b;
+				System.out.println("Modulo of a and b: "+mod);
+			default:
+				System.out.println("Incorrect Operator!");
+			
+	}
+}
+	}

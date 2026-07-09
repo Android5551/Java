@@ -1,0 +1,12 @@
+package arrays;
+
+public class Min2nd {
+
+	public static void main(String[] args) {
+		// TODO Finding 2nd largest element
+		int [] arr = {1,2,3,4};
+		
+
+	}
+
+}

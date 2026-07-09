@@ -1,0 +1,30 @@
+package arrays;
+
+public class MaxAnd2ndMax {
+	public static void main(String[] args) {
+		int[] intarr = { 1, 10, 4, 5, 78 };
+		int max = intarr[0];
+
+		for (int i = 0; i < intarr.length; i++) {
+			if (intarr[i] > max) {
+				max = intarr[i];
+			}
+
+		}
+		System.out.println("max is: " + max);
+		System.out.println("--------------");
+		int secondMax = intarr[0];
+        //1, 10, 4, 5, 78 -> elements
+		//0, 1 , 2, 3, 4 -> index
+		for (int i = 0; i < intarr.length; i++) {
+			if (intarr[i] < max && intarr[i] > secondMax) {
+				System.out.println("intarr[i],max and 2ndmax are: "+intarr[i]+" "+max+" "+secondMax);
+				secondMax = intarr[i];
+				System.out.println("secondmax: "+secondMax);
+			}
+		}
+		System.out.println("second max: " + secondMax);
+
+	}
+
+}

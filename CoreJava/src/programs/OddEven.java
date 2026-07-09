@@ -1,0 +1,23 @@
+package programs;
+
+public class OddEven {
+	public static void main(String[] args) {
+		// TODO if no is even divide by 2 else if odd sub by 1 do this until no gets 0
+		// TODO Number of steps as o/p
+		int num = 14;
+		int steps = 0;
+		while (num != 0) {
+			if (num % 2 == 0) {
+				System.out.println("no. is even "+num);
+				num = num / 2;
+				steps++; 
+				
+			} else {
+				System.out.println("no. is odd "+num);
+				num = num - 1;
+				steps++;
+			}
+	}
+	System.out.println("Number of steps: "+steps);
+}
+}

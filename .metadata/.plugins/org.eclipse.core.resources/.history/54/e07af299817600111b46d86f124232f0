@@ -1,0 +1,32 @@
+package programs;
+
+public class SwitchCase {
+	public static void main(String[] args) {
+		// TODO Calculator using Switch
+		int a = 1;
+		int b = 2;
+		String ops = "+";
+		// if u don't use break then all case will be printed including default
+		switch (ops) {
+			case "+":
+				int sum = a + b;
+				System.out.println("Adding a and b: "+sum);
+				break;
+			case "-": 
+				int sub = a - b;
+				System.out.println("Subtracting a and b: "+sub);
+				break;
+			case "/":
+				int div = a / b;
+				System.out.println("Dividing a and b: "+div);
+				break;
+			case "%":
+				int mod = a % b;
+				System.out.println("Modulo of a and b: "+mod);
+				break;
+			default:
+				System.out.println("Incorrect Operator!");
+			
+	}
+}
+	}

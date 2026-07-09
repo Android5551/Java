@@ -1,0 +1,13 @@
+package programs;
+
+public class DoWhileLoops {
+	public static void main(String[] args) {
+		// do runs no matter what
+		int x = 0;
+		do {
+			System.out.println("Runs no matter what!"+x);
+		x++;
+		}
+		while (x < 4);
+	}
+}

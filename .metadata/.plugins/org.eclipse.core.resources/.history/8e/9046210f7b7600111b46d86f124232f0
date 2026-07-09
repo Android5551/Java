@@ -1,0 +1,20 @@
+package programs;
+
+public class IfElsePizza {
+
+	public static void main(String[] args) {
+		// TODO pizza program
+		int money = 99;
+		
+		// if else
+		if (money > 100) {
+			System.out.println("You can buy pizza!");
+		}else {
+			System.out.println("Sorry! You don't have enough money!");		
+		}
+		
+		
+		
+	}
+
+}
