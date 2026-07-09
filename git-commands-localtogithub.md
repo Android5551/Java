@@ -24,7 +24,7 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/yourusername/jaava.git
 ```
 
-### If branch is main
+### If branch is main and if this is the first push to a branch
 ```
 git push -u origin main
 /* The -u option tells Git to remember that your local main branch tracks origin/main. After /that, future pushes can usually be just:
