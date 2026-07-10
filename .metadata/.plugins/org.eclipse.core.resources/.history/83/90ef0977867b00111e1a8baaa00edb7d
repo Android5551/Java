@@ -1,0 +1,11 @@
+package com.rays.oop.encap;
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		// TODO creating object of Person class
+		
+
+	}
+
+}

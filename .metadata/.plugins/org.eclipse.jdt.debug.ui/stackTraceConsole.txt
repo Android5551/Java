@@ -1,0 +1,12 @@
+- name: String
+- dob: Date
+- address: String
++ $AVG_AGE
+-------------------------
++ getName(): String
++ setName()
++ getAddress(): String
++ setAddress()
++ getDob(): Date
++ setDob()
++ getAge(): int

@@ -1,0 +1,30 @@
+package programs;
+
+public class Armstrong {
+
+	public static void main(String[] args) {
+		// TODO whether the given no. is Armstrong
+		/*
+		 * 153 is an Armstrong number because it has 3 digits:
+		 * 1^3 +5^3 +3^3 = 1 + 125 + 27 = 153
+         */
+		int num = 153;
+		int ops = num;
+		int count = 0;
+		while(ops > 0) {
+			
+			ops = ops / 10;
+			System.out.println(ops);
+			count++;
+			
+		}
+		System.out.println(count);
+		while(ops>0) {
+			ops = ops % 10; //remainder 3
+			
+			
+		}
+	
+	}
+
+}

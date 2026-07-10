@@ -1,0 +1,61 @@
+package com.rays.oop.encap;
+
+public class Automobile {
+	// color ; speed; make (company name)
+	private String color;
+	private int speed;
+	private String make; 
+	private String model;
+	
+	
+	// getColor  string 
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+	// setColor
+	public String getColor() {
+		return this.color;
+	}
+	
+	// setMake string
+	public void setMake(String make) {
+		this.make = make;
+	}
+	
+	// getMake
+	public String getMake() {
+		return this.make;
+	}
+	
+	// getModel  string 
+	public void setModel(String model) {
+		this.model = model;
+	}
+		
+	// setModel
+	public String getModel() {
+		return this.model;
+	}
+	//	 getSpeed int
+	public int getSpeed() {
+		return this.speed;
+	}
+	
+	
+	// break
+//	public break() {
+//		
+//	}
+//	
+//	// changeGear
+//	public changeGear() {
+//		
+//	}
+//	
+//	// accelerator
+//	public accelerator() {
+//		
+//	}
+	
+}

@@ -1,0 +1,26 @@
+package com.rays.oop.encap;
+
+public class Person {
+
+	public static void main(String[] args) {
+		// TODO Create Person class
+		/*
+		 * Class Properties:
+		 * Attributes:
+		 * - name: String
+		 * - dob: Date
+		 * - address: String
+		 * + $AVG_AGE
+		-------------------------
+		 * + getName(): String
+		 * + setName()
+		 * + getAddress(): String
+		 * + setAddress()
+		 * + getDob(): Date
+		 * + setDob()
+		 * + getAge(): int
+		 */		
+		
+	}
+
+}

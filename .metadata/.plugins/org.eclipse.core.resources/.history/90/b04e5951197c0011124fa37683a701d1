@@ -1,0 +1,18 @@
+package com.rays.oop.encap;
+
+public class TestAutomobile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Automobile a1 = new Automobile();
+		
+		a1.setColor("White");
+		a1.setMake("Ford");
+		a1.setModel("EcoSport");
+		
+		System.out.println("Car's make is: "+a1.getMake());
+		System.out.println("Car's color is: "+a1.getColor());
+		System.out.println("Car's model is: "+a1.getModel());
+	}
+
+}

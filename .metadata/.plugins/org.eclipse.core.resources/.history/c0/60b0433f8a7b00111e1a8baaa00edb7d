@@ -1,0 +1,35 @@
+package com.rays.oop.encap;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class TestPerson {
+
+	public static void main(String[] args) throws ParseException {
+		// TODO creating object of Person class and Date
+
+		SimpleDateFormat s = new SimpleDateFormat("dd-MMMM-YYYY");
+		
+		
+		Person p = new Person();
+		
+		//Name
+		p.setName("Ram");
+		System.out.println("Person's Name is "+p.getName());
+		
+		//Address
+		p.setAddress("Indore");
+		System.out.println("Person's Address is "+p.getAddress());
+		
+		//DOB
+		p.setDOB(s.parse("09-July-2000"));
+		System.out.println("Person's DOB is "+p.getAge());
+		
+		
+		
+		
+
+	}
+
+}
