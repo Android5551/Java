@@ -15,19 +15,6 @@ public class TestAutomobile {
 		System.out.println("Car's make is: "+a1.getMake());
 		System.out.println("Car's model is: "+a1.getModel());
 		System.out.println("Car's max speed is: "+a1.getSpeed()+" kmph");
-		System.out.println("---------------");
-	
-		Automobile a2 = new Automobile();
-		a2.setColor("Yellow");
-		a2.setMake("Lamborghini");
-		a2.setModel("Aventador");
-		a2.setSpeed(350);
-		
-		System.out.println("Car's color is: "+a2.getColor());
-		System.out.println("Car's make is: "+a2.getMake());
-		System.out.println("Car's model is: "+a2.getModel());
-		System.out.println("Car's max speed is: "+a2.getSpeed()+" kmph");
-	
 	}
 
 }

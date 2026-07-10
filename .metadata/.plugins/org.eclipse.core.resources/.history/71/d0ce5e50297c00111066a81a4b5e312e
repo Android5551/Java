@@ -37,11 +37,6 @@ public class Automobile {
 	public String getModel() {
 		return this.model;
 	}
-	
-	public void setSpeed(int speed) {
-		this.speed = speed;
-	}
-	
 	//	 getSpeed int
 	public int getSpeed() {
 		return this.speed;

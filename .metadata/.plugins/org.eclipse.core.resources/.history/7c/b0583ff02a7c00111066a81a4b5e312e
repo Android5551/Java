@@ -3,7 +3,6 @@ package com.rays.oop.encap;
 public class Account {
 
 	private String number;
-	private String bank;
 	private String accountType;
 	private double balance;
 	
@@ -31,14 +30,7 @@ public class Account {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
-	
-	public void setBank(String bank) {
-		this.bank = bank;
-	}
-	
-	public String getBank() {
-		return this.bank;
-	}
+
 	public void deposit(double amt) {
 		balance = balance + amt;
 		System.out.println("total balance after deposit: " + balance);
