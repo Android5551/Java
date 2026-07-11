@@ -48,19 +48,19 @@ public class Automobile {
 	}
 	
 	
-	// brake
-	public void brake() {
-		
-	}
-	
-	// changeGear
-	public changeGear() {
-		
-	}
-	
-	// accelerator
-	public accelerator() {
-		
-	}
+	// break
+//	public break() {
+//		
+//	}
 //	
+//	// changeGear
+//	public changeGear() {
+//		
+//	}
+//	
+//	// accelerator
+//	public accelerator() {
+//		
+//	}
+	
 }
