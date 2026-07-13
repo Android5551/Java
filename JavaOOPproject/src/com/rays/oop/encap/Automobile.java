@@ -53,14 +53,14 @@ public class Automobile {
 		
 	}
 	
-	// changeGear
-	public changeGear() {
-		
-	}
-	
-	// accelerator
-	public accelerator() {
-		
-	}
+//	// changeGear
+//	public changeGear() {
+//		
+//	}
+//	
+//	// accelerator
+//	public accelerator() {
+//		
+//	}
 //	
 }
