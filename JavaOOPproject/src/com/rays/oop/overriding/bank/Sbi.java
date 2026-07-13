@@ -1,0 +1,6 @@
+package com.rays.oop.overriding.bank;
+
+public class Sbi extends Rbi {
+	
+	
+}

@@ -1,0 +1,15 @@
+package com.rays.oop.overriding.bank;
+
+public class Axis extends Rbi{
+	private double interest_rate_axis;
+
+	public double getInterest_rate_axis() {
+		return interest_rate_axis;
+	}
+
+	public void setInterest_rate_axis(double interest_rate_axis) {
+		this.interest_rate_axis = interest_rate_axis;
+	}
+	
+	
+}

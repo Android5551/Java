@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.rays.oop.overriding.Rectange.java&apos; to &apos;Rectangle.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaOOPproject&apos;&#x0D;&#x0A;- Original element: &apos;com.rays.oop.overriding.Rectange.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.rays.oop.overriding.Rectangle.java&apos;" description="Rename compilation unit &apos;Rectange.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.rays.oop.overriding{Rectange.java" name="Rectangle.java" references="false" stamp="1783931047726" version="1.0"/>
+</session>

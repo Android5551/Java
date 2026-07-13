@@ -1,0 +1,50 @@
+package com.rays.oop.overriding;
+
+public class TestShape {
+
+	public static void main(String[] args) {
+
+		Circle c = new Circle();
+		// gets all radius and border width and color
+		
+		c.setBorderwidth(2);
+		c.setColor("green");
+		c.setRadius(4);
+		
+		c.getBorderwidth();
+		c.getRadius();
+		c.getColor();
+		c.area();
+		
+		System.out.println("-------------------");
+		
+		Rectangle r = new Rectangle();
+		
+		r.setBorderwidth(3);
+		r.setColor("brown");
+		r.setLength(3);
+		r.setWidth(2);
+		
+		System.out.println(r.getBorderwidth());
+		System.out.println(r.getColor());
+		System.out.println(r.getLength());
+		System.out.println(r.getWidth());
+		r.area();
+		
+		System.out.println("-------------------");
+		
+		Triangle t = new Triangle();
+		
+		r.setBorderwidth(3);
+		r.setColor("red");
+		r.setLength(3);
+		r.setWidth(2);
+		
+		System.out.println(r.getBorderwidth());
+		System.out.println(r.getColor());
+		System.out.println(r.getLength());
+		System.out.println(r.getWidth());
+		r.area();
+	}
+
+}
