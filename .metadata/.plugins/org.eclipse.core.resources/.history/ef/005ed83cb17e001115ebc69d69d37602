@@ -7,7 +7,7 @@ public class TestRbi {
 		Axis a = new Axis();
 
 		a.setInterestRateAxis(11.1);
-		System.out.println("Interest rate of Axis bank : " + a.getInterestRate() + "%");
+		System.out.println("Interest rate of Axis bank : " + a.getInterestRateAxis() + "%");
 
 		System.out.println();
 
@@ -16,7 +16,7 @@ public class TestRbi {
 		Icici i = new Icici();
 
 		i.setInterestRateIcici(9.8);
-		System.out.println("Interest rate of Icici bank :" + i.getInterestRate() + "%");
+		System.out.println("Interest rate of Icici bank :" + i.getInterestRateIcici() + "%");
 
 		System.out.println();
 

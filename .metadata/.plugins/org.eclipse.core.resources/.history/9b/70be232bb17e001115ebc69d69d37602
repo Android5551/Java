@@ -3,11 +3,11 @@ package com.rays.oop.overriding.bank;
 public class Icici extends Rbi {
 	private double interestRateIcici;
 
-	public double getInterestRate() {
+	public double getInterestRateIcici() {
 		return interestRateIcici;
 	}
 
-	public void setInterestRateIcici(double interestRateIcici) {
+	public void getInterestRate(double interestRateIcici) {
 		this.interestRateIcici = interestRateIcici;
 	}
 
