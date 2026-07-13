@@ -1,0 +1,10 @@
+package com.rays.oop.overriding.bank;
+
+public class TestRbi {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
