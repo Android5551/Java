@@ -4,18 +4,16 @@ public class Icici extends Rbi {
 	private double interestRateIcici;
 	
 	// method overwriting ; if i comment it then parent's interest rate will be printed
-	// called generalized behavior
-	// otherwise its own called specialized behavior
-	 @override
-	public double getInterestRate() {
-		return interestRateIcici; // overwriting
-	}
-	// if i do the following parent method will be called ; this is generalized behavior
-//	@Override
+	// otherwise its own
+	// @override
 //	public double getInterestRate() {
-//		
-//		return super.getInterestRate();
+//		return interestRateIcici;
 //	}
+	@Override
+	public double getInterestRate() {
+		// TODO Auto-generated method stub
+		return super.getInterestRate();
+	}
 
 	public void setInterestRateIcici(double interestRateIcici) {
 		this.interestRateIcici = interestRateIcici;

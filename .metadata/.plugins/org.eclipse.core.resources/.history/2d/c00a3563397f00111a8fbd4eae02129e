@@ -1,0 +1,15 @@
+package com.rays.oop.overriding.bank;
+
+public class Icici extends Rbi {
+	private double interestRateIcici;
+	
+	// method overwriting
+	public double getInterestRate() {
+		return interestRateIcici;
+	}
+
+	public void setInterestRateIcici(double interestRateIcici) {
+		this.interestRateIcici = interestRateIcici;
+	}
+
+}
