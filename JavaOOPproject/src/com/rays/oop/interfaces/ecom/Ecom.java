@@ -3,14 +3,14 @@ package com.rays.oop.interfaces.ecom;
 public class Ecom extends Webapp implements DarkTheme, LightTheme{
 
 	@Override
-	public void Dark() {
-		System.out.println("swithch to dark");
+	public void dark() {
+		System.out.println("switch to dark theme");
 		
 	}
 	
 	@Override
-	public void Light() {
-		System.out.println("swithch to light");
+	public void light() {
+		System.out.println("switch to light");
 		
 	}
 	

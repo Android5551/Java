@@ -1,7 +1,11 @@
 package com.rays.oop.interfaces.ecom;
 
 public class Test {
-	LightTheme l = new Ecom();
+	public static void main(String[] args) {
+		LightTheme l = new Ecom();
+		DarkTheme d = new Ecom();
+		l.light();
+		d.dark();
+	}
 	
-	l.light();
 }
