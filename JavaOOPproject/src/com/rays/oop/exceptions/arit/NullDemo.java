@@ -1,6 +1,6 @@
 package com.rays.oop.exceptions.arit;
 
-public class Nul {
+public class NullDemo {
 	
 		public static void main(String[] args) {
 			String s = null;
